@@ -125,34 +125,30 @@ button:hover {
 
 #table-header h4,
 #table-data p {
-    flex: 1;
+  flex: 1;
 }
 
 #table-header h4:nth-child(3),
 #table-data p:nth-child(3) {
-    max-width: 80px;
+  max-width: 80px;
 }
 
-#back-btn{
-    align-self: center;
+#back-btn {
+  align-self: center;
 }
 
-.good{
-    color: #12db34;
+.good {
+  color: #12db34;
 }
 
-.low{
-    color: #dbce12;
+.low {
+  color: #dbce12;
 }
 
-.medium{
-    color: #db6212;
+.medium {
+  color: #db6212;
 }
 
-.high{
-    color: #db1912;
+.high {
+  color: #db1912;
 }
-
-
-
-

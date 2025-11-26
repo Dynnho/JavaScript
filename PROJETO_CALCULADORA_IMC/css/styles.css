@@ -32,26 +32,26 @@ body {
   margin-bottom: 2rem;
 }
 
-#form-inputs {
+.form-inputs {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-#form-control {
+.form-control {
   display: flex;
   flex-direction: column;
   flex: 1;
   margin-bottom: 1rem;
 }
 
-#form-control label {
+.form-control label {
   font-weight: bold;
   margin-bottom: 0.6rem;
   color: #ccc;
 }
 
-#form-control input {
+.form-control input {
   padding: 1rem 0.5rem;
 }
 
@@ -121,6 +121,7 @@ button:hover {
   margin-bottom: 0.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #444;
+  text-align: center;
 }
 
 #table-header h4,

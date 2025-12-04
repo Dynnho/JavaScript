@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio Semântico</title>
+
+    <!-- Estilo -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- JS -->
+    <script src="js/scripts.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Beatriz</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Desenvolvedor front-end com foco em HTML5, CSS3 e JavaScript.</p>
+      </section>
+
+      <section id="projetos">
+        <h2>Meus Projetos</h2>
+
+        <article class="projeto-card">
+          <h3>Projeto 1: Website Institucional</h3>
+          <p>Breve descrição do projeto. Foco em responsividade.</p>
+
+          <div class="detalhes-ocultos" style="display: none">
+            <p>
+              <strong>Tecnologias:</strong> HTML5, CSS Grid, JavaScript básico.
+            </p>
+            <a href="#">Ver no GitHub</a>
+          </div>
+          <button class="btn-toggle-detalhes">Mostrar Detalhes</button>
+        </article>
+
+        <article class="projeto-card">
+          <h3>Projeto 2: Aplicação de Tarefas</h3>
+          <p>Aplicação simples de lista de tarefas (To-Do List).</p>
+          <div class="detalhes-ocultos" style="display: none">
+            <p>
+              <strong>Tecnologias:</strong> JavaScript (DOM Manipulation), CSS
+              Flexbox.
+            </p>
+            <a href="#">Ver no GitHub</a>
+          </div>
+          <button class="btn-toggle-detalhes">Mostrar Detalhes</button>
+        </article>
+      </section>
+
+      <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato via email@exemplo.com</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Beatriz. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
